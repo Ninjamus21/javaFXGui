@@ -12,4 +12,10 @@ public class Car {
         this.elektrisk = elektrisk;
         this.price = price;
     }
+
+    @Override
+    public String toString(){
+        return ( mærke + " " + model + " electric " + elektrisk.toString() + " price is: " + price + "dk" );
+
+    }
 }
